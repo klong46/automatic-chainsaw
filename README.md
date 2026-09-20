@@ -20,9 +20,23 @@ Before I try to answer that question, I want to point out that this fundamental 
 
 Now you could use AI tools to create games using an existing game engine like Unity, but you are still constrained by the limitations of the engine and will need to learn how to use and navigate a complex UI. There's nothing I hate more than spending my time learning how to use software that will inevitably change or stop being supported, leaving me with the knowledge of some system that is useless in any other context. 
 
-Now that I've defined the challenges associated with some of these approaches, it's easier to see the alternatives that remain. My goal is to take the strengths of these ideas and combine them in a way that maximizes the amount of time spent on pure _game design_. Things I don't want:
-+ 
+Now that I've defined the challenges associated with some of these approaches, it's easier to see the alternatives that remain. My goal is to take the strengths of these ideas and combine them in a way that maximizes the amount of time spent on pure _game design_. Things I don't want to do:
 
-So if you can't vibe code a good game and you don't want to spend 10 years writing code, 
+- Spend all my time writing code
+- Spend all my time debugging code
+- Reading any code at all
+- Be constrained to the limitations of a prescriptive game engine
+- Watch a YouTube tutorial on how to navigate Unreal Engine
+- Have an AI make design decisions for me
+- Create an artistically corrupt AI slop game
+
+Things I want to do:
+
+- Think about code as little as possible
+- Have complete control over the art, writing, music, and game mechanics
+- Learn and practice fundamental game design skills that are applicable in any context
+- Make something not shitty
+
+  Therefore the best approach I can think of is one that minimizes the  
 
 
