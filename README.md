@@ -31,12 +31,36 @@ Now that I've defined the challenges associated with some of these approaches, i
 - Create an artistically corrupt AI slop game
 
 Things I want to do:
-
 - Think about code as little as possible
 - Have complete control over the art, writing, music, and game mechanics
 - Learn and practice fundamental game design skills that are applicable in any context
 - Make something not shitty
 
-  Therefore the best approach I can think of is one that minimizes the  
+The best approach I can think of is one that decouples code from game design as much as possible. Game engines do a good job of this but are mostly bloated and overcomplicated for the needs of an indie/solo game developer. You could get AI to create a passable 3D game in Unity, but the second you want to handcraft a clever puzzle or tweak the placement of some platforms, your choices are: 
+1. Become proficient in Unity and do it manually
+2. Prompt the AI with incredibly specific details until you get what you want
 
+I don't like these choices, but the best way to build and refine a game is to use prebuilt systems that automate the most tedious aspects of development. So why not just use AI to build _those_ systems instead? Well that's my plan, kinda.
+
+The idea is to vibe code tools designed only to build the game you are developing. This way, you can create a low/no code interface that is specifically created to build _only_ what you care about. You have control over the tools and what you create with them. This solves two problems. First, you can claim total ownership over the final product. Second, you can shift the risks of vibe coded software to the domain it impacts your game the least: your tools. No one ever had to abandon their entire project just because Unity had a bug. You simply work around the limitations of your tools, or in this case, literally recreate a tool to serve your purpose. It has never been easier in software to make your own simple, jank tools and they're mostly completely useless for the general public because there's already a version of the same thing that is 1000% better. BUT, if the goal is to perform only one task very well, it's easy to vibe up a small application that will fit your needs.
+
+That's basically my experiment for how I want to create this game. Start with vibe coded tools that do exactly what I want and nothing more. These tools will never be useful to anyone else unless they are creating exactly the same game. After that, use my new tools to build the game and voilà, a game created with minimal code written, read, or understood by me. I'm thinking the types of tools I will likely need are things like:
+- Pixel art tool
+- Level editor tool
+- NPC AI/behavior tool
+- Playtesting tool
+- UI editor tool
+- Game engine itself
+
+I could even do fancy stuff like create an automated playtesting tool that can run through many scenarios efficiently to reduce the manual effort required for tweaking gameplay. I will likely need more tools than just that. The custom game engine is a bit trickier in the sense that it will probably require some actual software design to make sure it's representing my ideas accurately.
+
+Well anyway I decided to start with the simplest and probably least necessary tool I can think of which is the pixel art editor. I used Gemini 3.6 flash (free tier :/) to create a very simple Mac application called Pixy that does the most basic functions of pixel art and nothing more. I don't use the fancy features that come with most general-purpose pixel art tools, so I wanted to create one that just does the bare minimum. It took me like 3 prompts and 15 minutes to make the app and it's fully usable to create and export pixel art. That being said, there are still some improvements to be made for sure, but now whatever shitty AI generated code I commit to the Pixy repo will only affect the tool itself, not the artwork I can create with it.
+
+### Cool Pixy logo (Unfortunately, Gemini came up with this, not me)
+![alt text](<screenshots/Screenshot 2026-09-20 at 6.21.44 PM.png>)
+
+### Pixy App
+![alt text](<screenshots/Screenshot 2026-09-20 at 6.25.19 PM.png>)
+
+Basically everything you can see in that screenshot is the entirety of Pixy's features. I'm planning on adding some shape tools and copy/paste functionality soon.
 
