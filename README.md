@@ -62,5 +62,7 @@ Well anyway I decided to start with the simplest and probably least necessary to
 ### Pixy App
 ![alt text](<screenshots/Screenshot 2026-09-20 at 6.25.19 PM.png>)
 
+Pixy repo: https://github.com/klong46/pixy
+
 Basically everything you can see in that screenshot is the entirety of Pixy's features. I'm planning on adding some shape tools and copy/paste functionality soon.
 
